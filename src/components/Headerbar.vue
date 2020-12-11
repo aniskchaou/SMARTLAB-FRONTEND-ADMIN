@@ -3,7 +3,7 @@
     
            <nav
           class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent"
-        >
+        v-if="this.$route.path !== '/'">
           <div class="container-fluid">
             <div class="navbar-wrapper">
               <div class="navbar-toggle">

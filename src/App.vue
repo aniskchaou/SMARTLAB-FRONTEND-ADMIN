@@ -1,21 +1,20 @@
 <template>
-  <div id="app">
-    <div class="wrapper">
-      <div class="sidebar" data-color="white" data-active-color="danger">
+  <div id="app" >
+    <div class="wrapper" v-if="this.$route.path !== '/'">
+      <div class="sidebar" data-color="white" data-active-color="danger" >
         <div class="logo">
-          <a
-            href="https://www.creative-tim.com"
+          <router-link to="/dashboard"
             class="simple-text logo-normal"
           >
             <div class="logo-image-big">
               <img src="@/assets/img/logo.png" />
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li class="active">
-              <router-link to="/">
+              <router-link to="/dashboard">
                 <i class="nc-icon nc-bank"></i>
                 <p>Tableau de bord</p>
               </router-link>
@@ -46,7 +45,7 @@
               </router-link>
             </li>
             <li>
-              <router-link to="/">
+              <router-link to="/configuration">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Configuration</p>
               </router-link>
@@ -69,6 +68,16 @@
             <Footer/>
       </div>
     </div>
+
+
+
+
+  <div  v-if="this.$route.path === '/'">
+   <Login/>
+  </div>
+
+
+
     <!--   Core JS Files   -->
     <script type="application/javascript" src="js/core/jquery.min.js"></script>
     <script type="application/javascript" src="js/core/popper.min.js"></script>
@@ -105,12 +114,14 @@
 <script>
 import Footer from '@/components/Footer.vue';
 import Headerbar from '@/components/Headerbar.vue';
+import login from '@/components/login.vue';
 
 export default {
   name: "App",
   components: {
     'Headerbar': Headerbar,
     'Footer': Footer,
+    'Login': login,
     }
 };
 </script>

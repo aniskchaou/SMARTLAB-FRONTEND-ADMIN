@@ -23,9 +23,25 @@
               <td>ytfytfy</td>
               <td><p class="bg-success text-white">payé</p></td>
               <td>12/11/2020</td>
-               <td><a href="#" onclick="demo.showNotification('top','right')" class="btn btn-primary"><span class="glyphicon glyphicon-eye-open"></span>Voir  </a>
-                <a href="#" onclick="demo.showNotification('top','right')" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Modifier </a>
-                <a href="#" onclick="demo.showNotification('top','right')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Supprimer  </a>
+              <td>
+                <a
+                  href="#"
+                  onclick="demo.showNotification('top','right')"
+                  class="btn btn-primary"
+                  ><span class="glyphicon glyphicon-eye-open"></span>Voir
+                </a>
+                <a
+                  href="#"
+                  onclick="demo.showNotification('top','right')"
+                  class="btn btn-warning"
+                  ><span class="glyphicon glyphicon-edit"></span> Modifier
+                </a>
+                <a
+                  href="#"
+                  onclick="demo.showNotification('top','right')"
+                  class="btn btn-danger"
+                  ><span class="glyphicon glyphicon-trash"></span> Supprimer
+                </a>
               </td>
             </tr>
           </tbody>

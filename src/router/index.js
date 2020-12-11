@@ -5,14 +5,23 @@ import medecin from '../components/medecin.vue'
 import Dashboard from '../components/Dashboard.vue'
 import analyse from '../components/analyse.vue'
 import payment from '../components/payment.vue'
-
+import  login  from "../components/login.vue";
+import  configuration  from "../components/configuration.vue";
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'dashboard',
+    name: 'login',
+    component: login
+  }, {
+    path: '/dashboard',
+    name: 'patient',
     component: Dashboard
+  },{
+    path: '/configuration',
+    name: 'configuration',
+    component: configuration
   },
   {
     path: '/patient',
