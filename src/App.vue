@@ -3,49 +3,47 @@
     <div class="wrapper" v-if="this.$route.path !== '/'">
       <div class="sidebar" data-color="white" data-active-color="danger" >
         <div class="logo">
-          <router-link to="/dashboard"
-            class="simple-text logo-normal"
-          >
+         
             <div class="logo-image-big">
               <img src="@/assets/img/logo.png" />
             </div>
-          </router-link>
+         
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
-            <li class="active">
-              <router-link to="/dashboard">
+            <li >
+              <router-link active-class="active" to="/dashboard">
                 <i class="nc-icon nc-bank"></i>
                 <p>Tableau de bord</p>
               </router-link>
             </li>
             <li>
-              <router-link to="/patient">
+              <router-link active-class="active" to="/patient">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Patient</p>
               </router-link>
             </li>
             <li>
-              <router-link to="/analyse">
+              <router-link active-class="active" to="/analyse">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>Analyse</p>
               </router-link>
             </li>
             <li>
-              <router-link to="/payment">
+              <router-link active-class="active" to="/payment">
                 <i class="nc-icon nc-bell-55"></i>
                 <p>Paiement</p>
               </router-link>
             </li>
          
             <li>
-              <router-link to="/medecin">
+              <router-link active-class="active" to="/medecin">
                 <i class="nc-icon nc-tile-56"></i>
                 <p>Medecin</p>
               </router-link>
             </li>
             <li>
-              <router-link to="/configuration">
+              <router-link active-class="active" to="/configuration">
                 <i class="nc-icon nc-caps-small"></i>
                 <p>Configuration</p>
               </router-link>
@@ -141,4 +139,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.active{
+    font-weight: bold;
+    font-size:large;
+    background-color: #fd7e14;
+    color: #fd7e14;
+  }
 </style>
