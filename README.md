@@ -1,24 +1,10 @@
-# my-app-vue
+# SmartLab
 
-## Project setup
-```
-npm install
-```
+SmartLab is a web application that allows you to manage a laboratory
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Informations:
+- Status: under development
+- Lastest version: 1.0
+- Sector: medical
+- Created: October 2020
+- Last updated: October 2020
