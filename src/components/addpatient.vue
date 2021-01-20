@@ -1,46 +1,54 @@
 <template>
-  <form action="http://lms.teamworktec.com/admin/store/patient" method="POST">
-                                <input type="hidden" name="_token" value="p16D8B5PlLnu83FEYSAPA8zDCCf9S8EkN97AO9hp">
+  <form  method="POST">
+                               
                                 <div class="row">
                                                                                                                                                                                                                                                                                                             <div class="row">
 
-                                            <div class="input-field col s12 m6">
-                                                <input id="first_name" type="text" value="" name="name">
-                                                <label for="first_name" class="">Name</label>
+                                            <div class="col-md-12">
+                                                <label for="first_name" class="">Nom</label>
+                                                <input class="form-control" id="first_name" type="text" value="" name="name">
+                                               
                                             </div>
-                                            <div class="input-field col s12 m6">
-                                                <input id="ss" type="text" name="mobile" value="">
-                                                <label for="ss" class="">Your mobile number</label>
+                                            <div class="col-md-12">
+                                                
+                                                <label for="ss" class="">Mobile</label>
+                                                <input class="form-control" id="ss" type="text" name="mobile" value="">
                                             </div>
-                                            <div class="input-field col s12 m6">
-                                                <input id="tr" type="text" name="age" value="">
+                                            <div class="col-md-12">
+                                               
                                                 <label for="tr" class="">Age</label>
+                                                 <input class="form-control" id="tr" type="text" name="age" value="">
                                             </div>
-                                            <div class="input-field col s12 m6">
-                                                <div class="select-wrapper"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-4a88d79c-c414-b66e-c684-6e312626bf07" value="Select Gender"><ul id="select-options-4a88d79c-c414-b66e-c684-6e312626bf07" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Gender</span></li><li class=""><span>Male</span></li><li class=""><span>Female</span></li></ul><select name="gender" data-select-id="4a88d79c-c414-b66e-c684-6e312626bf07" class="initialized">
+                                            <div class="col-md-12">
+                                                <label>Sexe</label>
+                                                <div class="select-wrapper">
+                                                  <select class="form-control">
                                                     <option id="" disabled="" selected="">Select Gender</option>
                                                     <option id="1">Male</option>
                                                     <option id="2">Female</option>
                                                 </select></div>
-                                                <label>Gender</label>
+                                            
                                             </div>
-                                            <div class="input-field col s12 m6">
-                                                <input id="y" type="text" name="occupation" value="">
-                                                <label for="y" class="">Occupation</label>
+                                            <div class="col-md-12">
+                                            <label for="y" class="">Occupation</label>
+                                                <input class="form-control" id="y" type="text" name="occupation" value="">
+                                                
                                             </div>
-                                            <div class="input-field col s12 m6">
-                                                <input id="oo" type="email" name="email" value="">
-                                                <label for="oo" class="">Email</label>
+                                            <div class="col-md-12">
+                                            <label for="oo" class="">Email</label>
+                                                <input class="form-control" id="oo" type="email" name="email" value="">
+                                                
                                             </div>
-                                            <div class="input-field col s12">
-                                                <textarea id="message5" class="materialize-textarea" length="320" name="address"></textarea>
-                                                <label for="message5" class="">Your Address</label>
+                                            <div class="col-md-12">
+                                              <label for="message5" class="">Adresse</label>
+                                                <textarea id="message5" class="form-control" length="320" name="address"></textarea>
+                                              
                                             </div>
                                         </div>
 
                                 </div>
                                 <div class="card-action">
-                                    <button class="waves-effect waves-light btn green" type="submit"><i class="fa fa-check"></i>Save</button>
+                                    <button class="waves-effect waves-light btn green" type="submit"><i class="fa fa-check"></i>Savegarder</button>
                                 </div>
                             </form>
 </template>

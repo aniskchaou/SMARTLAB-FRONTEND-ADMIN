@@ -11,16 +11,15 @@
           <thead class="text-primary">
             <th>Nom</th>
             <th>Contact</th>
-            <th>Age</th>
             <th>Date</th>
             <th>Statut</th>
             <th>Actions</th>
           </thead>
           <tbody>
             <tr>
-              <td>iuhiu</td>
-              <td>jhj@gmail.com</td>
-              <th>11</th>
+              <td>Alice Hughes
+</td>
+              <td>AliceHughes@teleworm.us</td>
               <th>22/11/2020</th>
               <td><p class="bg-success text-white">Terminé</p></td>
                 <td><button type="button" data-toggle="modal" data-target="#viewTask" class="btn btn-primary btn-sm"><i class="fas fa-address-book"></i></button>
@@ -44,8 +43,8 @@
             
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              
             </div>
           </div>
         </div>

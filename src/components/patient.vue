@@ -18,12 +18,13 @@
             </thead>
             <tbody>
               <tr>
-                <td>iuhiu</td>
-                <td>22</td>
-                <th>32553523</th>
-                <th>homme</th>
-                <td>anis@gmail.com</td>
-                <td>adresse</td>
+                <td>Albracca Tougas</td>
+                <td>22 ans</td>
+                <th>04.66.13.99.94</th>
+                <th>Femme</th>
+                <td>AlbraccaTougas@dayrep.com</td>
+                <td>76, boulevard Aristide Briand
+06110 LE CANNET</td>
                  <td><button type="button" data-toggle="modal" data-target="#viewTask" class="btn btn-primary btn-sm"><i class="fas fa-address-book"></i></button>
               <button type="button" data-toggle="modal" data-target="#editTask"  class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></button>
               <button type="button" class="btn btn-danger btn-sm" ><i class="fas fa-trash-alt"></i></button></td>
@@ -45,8 +46,8 @@
             <AddPatient/>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              
             </div>
           </div>
         </div>

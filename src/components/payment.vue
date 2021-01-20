@@ -9,18 +9,17 @@
           <thead class="text-primary">
             <th>Nom</th>
             <th>Contact</th>
-            <th>Age</th>
-            <th class="text-right">Rapport</th>
+           
             <th>Paiement</th>
             <th>Date</th>
             <th>Actions</th>
           </thead>
           <tbody>
             <tr>
-              <td>iuhiu</td>
-              <td>5352532</td>
-              <td>44</td>
-              <td>ytfytfy</td>
+              <td>Gaetan Dupuy
+</td>
+              <td>04.03.73.73.70</td>
+              
               <td><p class="bg-success text-white">payé</p></td>
               <td>12/11/2020</td>
                <td><button type="button" data-toggle="modal" data-target="#viewTask" class="btn btn-primary btn-sm"><i class="fas fa-address-book"></i></button>
@@ -44,8 +43,8 @@
             
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              
             </div>
           </div>
         </div>

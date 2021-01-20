@@ -15,10 +15,10 @@
           </thead>
           <tbody>
             <tr>
-              <td>Mohamed</td>
-              <td>5352532</td>
-              <td>anis@gmail.com</td>
-              <td>généraliste</td>
+              <td>Sargent Quirion</td>
+              <td>01.04.70.94.74</td>
+              <td>SargentQuirion@armyspy.com</td>
+              <td>Généraliste</td>
                <td><button type="button" data-toggle="modal" data-target="#viewTask" class="btn btn-primary btn-sm"><i class="fas fa-address-book"></i></button>
               <button type="button" data-toggle="modal" data-target="#editTask" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></button>
               <button type="button" class="btn btn-danger btn-sm" ><i class="fas fa-trash-alt"></i></button></td>
@@ -40,8 +40,8 @@
             <AddMedecin/>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              
             </div>
           </div>
         </div>
